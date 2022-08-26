@@ -31,9 +31,9 @@ function Sidebar() {
 
     useEffect(() => {
         if(user){
-            setCurrentRoom("general");
+            setCurrentRoom("tech");
             getRooms();
-            socket.emit("join-room", "general");
+            socket.emit("join-room", "tech");
             socket.emit("new-user");
         }
     },[]);
@@ -43,7 +43,7 @@ function Sidebar() {
     });
     
     function getRooms(){
-        fetch("https://mern-chat-apps.herokuapp.com/rooms")
+        fetch("https://hellochatapp001.herokuapp.com/rooms")
         .then((res)=>res.json())
         .then((data)=>setRooms(data));
     }

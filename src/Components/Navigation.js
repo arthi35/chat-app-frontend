@@ -22,7 +22,7 @@ function Navigation() {
     <Container>
         <LinkContainer to="/">
         <Navbar.Brand>
-            <img src={logo} alt="Chat App" style={{width: 50, height: 50}} />
+            <img src={logo} alt="Chat App" style={{width: 70, height: 70}} />
         </Navbar.Brand>
             </LinkContainer>
      
