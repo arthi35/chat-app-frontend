@@ -55,8 +55,8 @@ function handleLogin(e){
        <p className="text-center">
            Don't have an account yet ? <Link to="/signup">Signup</Link>
            </p>
-           {/* <p>username:test,test1</p>
-           <p>password:123456</p> */}
+           <p>username:hellouser@gmail.com</p>
+           <p>password:hellouser123</p>
        </div>
 </Form>
 </Col>
