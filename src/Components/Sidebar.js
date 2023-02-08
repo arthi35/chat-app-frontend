@@ -43,11 +43,11 @@ function Sidebar() {
     });
     
     function getRooms(){
-        fetch("https://hellochatapp001.herokuapp.com/rooms")
+        fetch("https://hellochat.onrender.com/rooms")
         .then((res)=>res.json())
         .then((data)=>setRooms(data));
     }
-    
+    //https://hellochatapp001.herokuapp.com/rooms
     function orderIds(id1, id2){
         if(id1 > id2){
             return id1 + "-" + id2;
